@@ -6,23 +6,45 @@
 
     <style>
 
+        /* BACKGROUND AESTHETIC */
+
         body {
-            background-color: #FFFDD0;
+            background-color: #FFF8E7;
             text-align: center;
             font-family: Arial, sans-serif;
             padding: 30px;
             margin: 0;
+            min-height: 100vh;
+
+            background-image:
+                radial-gradient(circle at 5% 10%, #ffb6c1 0, transparent 20%),
+                radial-gradient(circle at 95% 15%, #c9c2ff 0, transparent 22%),
+                radial-gradient(circle at 10% 90%, #ffd6a5 0, transparent 22%),
+                radial-gradient(circle at 90% 85%, #bde0d0 0, transparent 22%),
+                radial-gradient(circle, rgba(120, 90, 80, 0.08) 1px, transparent 1px);
+
+            background-size:
+                auto,
+                auto,
+                auto,
+                auto,
+                25px 25px;
+
+            background-attachment: fixed;
         }
 
         /* CARD UTAMA */
 
         .card {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.94);
             max-width: 700px;
             margin: 50px auto;
             padding: 40px;
             border-radius: 25px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, 0.12),
+                0 0 60px rgba(255, 255, 255, 0.7);
         }
 
         /* JUDUL */
@@ -54,7 +76,10 @@
             width: 300px;
             border-radius: 50%;
             border: 5px solid white;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+            box-shadow:
+                0 5px 20px rgba(0, 0, 0, 0.2),
+                0 0 35px rgba(255, 255, 255, 0.7);
         }
 
         /* ANIMASI FOTO */
@@ -268,6 +293,8 @@
 
         <p class="paskibra-year">
             2026
+<img src="paskib2026.jpeg" alt="FLSN Ansambel">
+
         </p>
 
     </section>
