@@ -166,6 +166,31 @@
             margin-top: 30px;
         }
 
+        /* ========================= */
+        /* GARIS PEMISAH TOPIK */
+        /* ========================= */
+
+        .pemisah {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            max-width: 650px;
+            margin: 80px auto;
+        }
+
+        .pemisah::before,
+        .pemisah::after {
+            content: "";
+            height: 1px;
+            flex: 1;
+            background-color: #c9a27e;
+        }
+
+        .pemisah span {
+            color: #c9a27e;
+            font-size: 20px;
+        }
+
         /* PASKIBRA */
 
         .paskibra {
@@ -196,6 +221,14 @@
             font-weight: bold;
             color: #d90429;
             margin-top: 5px;
+        }
+
+        /* FOTO PASKIBRA */
+
+        .paskibra img {
+            width: 300px;
+            border-radius: 20px;
+            margin-top: 10px;
         }
 
         /* FLSN ANSAMBEL */
@@ -283,6 +316,13 @@
     </section>
 
 
+    <!-- GARIS PEMISAH -->
+
+    <div class="pemisah">
+        <span>✦</span>
+    </div>
+
+
     <!-- PASKIBRA 2026 -->
 
     <section class="paskibra">
@@ -293,11 +333,18 @@
 
         <p class="paskibra-year">
             2026
-<img src="paskib2026.jpeg" alt="FLSN Ansambel">
-
         </p>
 
+        <img src="paskib2026.jpeg" alt="Paskibra 2026">
+
     </section>
+
+
+    <!-- GARIS PEMISAH -->
+
+    <div class="pemisah">
+        <span>✦</span>
+    </div>
 
 
     <!-- FLSN ANSAMBEL -->
